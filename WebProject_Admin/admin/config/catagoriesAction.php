@@ -21,7 +21,8 @@ if(isset($_POST['Upload']))
     }
 
 
-    $sql = "INSERT INTO `tbl_catagories`(`name`, `type`, `description`, `image_path`, `status`) VALUES ('$name','$type','$description','$file','$status')";
+    $sql = "
+    INSERT INTO `tbl_catagories`(`catagory_name`, `type`, `description`, `image_path`, `status`) VALUES ('$name','$type','$description','$file','$status')";
 
 
     $result = mysqli_query($con, $sql);
