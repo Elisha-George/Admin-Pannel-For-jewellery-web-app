@@ -19,13 +19,7 @@ if(!$con)
 }
 else{
 
-    ?>
-    <script>
-    alert("connection Successfull!!!");
-
-    </script>
-
-    <?php
+ 
 }
 
 ?>
